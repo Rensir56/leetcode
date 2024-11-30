@@ -18,7 +18,7 @@ function majorityElement1(nums: number[]): number {
     return flag
   };
 
-// 解法2 O(n)时间 O(1)空间
+// 解法2 O(nlogn)时间 O(1)空间
 // 思想：排序后返回中位数
 function majorityElement2(nums: number[]): number {
     nums.sort((a, b) => a - b);
